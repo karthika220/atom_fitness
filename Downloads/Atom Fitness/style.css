@@ -1279,7 +1279,15 @@ a { text-decoration: none; color: inherit; }
   .container { padding: 0 16px; }
   .section-title { font-size: 38px; line-height: 40px; }
   .hero-content { padding: 0 16px; }
+  .section-hero {
+    height: calc(100vh - 78px);
+    min-height: 520px;
+    align-items: center;
+    padding-bottom: 0;
+  }
+  .hero-title { margin-bottom: 14px; }
   .hero-sub { font-size: 1.05rem; }
+  .hero-sub { margin-bottom: 22px; }
   .section-about .section-title {
     font-size: 44px;
     line-height: 46px;
